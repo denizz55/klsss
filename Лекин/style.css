@@ -1,0 +1,149 @@
+* {
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+header {
+    background: var(--3-b-3937, #3B3937);
+}
+
+.container {
+    width: 1530px;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+
+nav {
+    width: 1920px;
+    height: 98px;
+}
+
+.lg {
+    width: 90px;
+    height: 43.013px;
+    padding-left: 195px;
+    padding-top: 18px;
+}
+
+nav li {
+    color: #ffffff;
+    font-family: Abhaya Libre;
+    font-size: 18px;
+    font-style: normal;
+    display: inline;
+    margin-left: 33px;
+}
+
+nav ul {
+    padding-left: 548px;
+}
+
+li:nth-child(5) {
+    padding-left: 75px;
+}
+
+li:nth-child(6) {
+    padding-left: 100px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.banner {
+    background-image: url('img/Rectangle\ 1.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.eclipse {
+    border-radius: 754px;
+    background: rgba(34, 27, 21, 0.51);
+    width: 754px;
+    height: 754px;
+    margin: 0 auto;
+}
+
+.eclipse h1 {
+    text-align: center;
+    width: 433px;
+    height: 137px;
+    color: var(--ffffff, #FFF);
+    text-align: center;
+    font-family: Abhaya Libre;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: -1.2px;
+    margin: 0 auto;
+    padding-top: 167px;
+}
+
+.p1 {
+    
+    color: var(--ffd-6-a-8, #FFD6A8);
+    text-align: center;
+    font-family: Abhaya Libre;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; 
+    letter-spacing: -0.64px;
+    margin: 0 auto;
+    padding-top: 165px;
+}
+.p2{
+    color: var(--ffffff, #FFF);
+text-align: center;
+font-family: Abhaya Libre;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 130%;
+padding-top: 34px; 
+}
+button{
+    width: 247.675px;
+    height: 82.558px;
+    margin: 0 auto;
+    color:#FFF ;
+    background-color: #A9845C;
+    font-size: 20px;
+   border: none;
+    text-transform: uppercase;
+ 
+    }
+.button_wrapper{
+    display: flex;	
+    justify-content: center;	
+    padding-top: 48px;
+}
+.katalog h1{
+    color: var(--3-b-3937, #3B3937);
+font-family: Abhaya Libre;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: 100%; /* 32px */
+letter-spacing: -0.32px;
+padding-left: 195px;
+padding-top: 70px;
+}
+.products{
+    width: 230px;
+height: 230px;
+flex-shrink: 0;
+border: black solid 1px;
+
+
+}
+.blocki{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    gap: 20px;
+}
